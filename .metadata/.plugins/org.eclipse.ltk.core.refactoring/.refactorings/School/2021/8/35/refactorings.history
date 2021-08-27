@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;School.src.com.aspire.hscadmission&apos; to &apos;com.aspire.school&apos;&#x0D;&#x0A;- Original project: &apos;School&apos;&#x0D;&#x0A;- Original element: &apos;School/src/School.src.com.aspire.hscadmission&apos;&#x0D;&#x0A;- Renamed element: &apos;School/src/com.aspire.school&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;School.src.com.aspire.hscadmission&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;School.src.com.aspire.hscadmission" name="com.aspire.school" qualified="false" references="true" stamp="1629693869306" textual="false" version="1.0"/>
+</session>

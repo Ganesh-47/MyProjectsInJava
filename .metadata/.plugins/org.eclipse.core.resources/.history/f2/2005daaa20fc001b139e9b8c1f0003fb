@@ -1,0 +1,34 @@
+package com.aspire.arrayconcept;
+
+
+public class Person {
+	    private String name="";
+	    private long aadar=0;
+	    private int age=0;
+	    
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public long getAadar() {
+			return aadar;
+		}
+		public void setAadar(long aadar) {
+			this.aadar = aadar;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void setAge(int age) throws Exception {
+			if(age < 18) {
+				throw new Exception("Age shouldn't be less than 18 ");
+			}
+			else {
+				this.age = age;
+			}
+		}
+		
+		
+}

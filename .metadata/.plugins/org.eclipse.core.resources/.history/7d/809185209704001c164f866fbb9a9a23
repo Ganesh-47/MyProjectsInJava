@@ -1,0 +1,5 @@
+package com.aspire.interfaceconcept;
+
+public interface BankSBI {
+
+}

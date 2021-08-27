@@ -1,0 +1,7 @@
+package com.aspire.collections;
+
+public @interface Author {
+	String Ganesh = null;
+
+	String name();
+}

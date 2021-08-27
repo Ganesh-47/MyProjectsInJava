@@ -1,0 +1,30 @@
+package com.aspire.interfaceconcept;
+
+public interface BankSBI {
+	public void loan();
+
+}
+interface BankKVB{
+	public void loanINKVB();
+}
+ class ServiceProvider implements BankSBI,BankKVB{
+	public static void main(String args[]){
+		loan(); 	
+		loanINKVB();
+	}
+
+
+	public static void loanINKVB() {
+		// TODO Auto-generated method stub
+		System.out.println("I am KVB");
+		
+	}
+
+	public static void loan() {
+		// TODO Auto-generated method stub
+		System.out.println("I am SBI");
+		
+	}
+ }
+		
+	

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;MartHelper.src.com.aspire.mart&apos; to &apos;com.aspire.martsupporter&apos;&#x0D;&#x0A;- Original project: &apos;MartHelper&apos;&#x0D;&#x0A;- Original element: &apos;MartHelper/src/MartHelper.src.com.aspire.mart&apos;&#x0D;&#x0A;- Renamed element: &apos;MartHelper/src/com.aspire.martsupporter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;MartHelper.src.com.aspire.mart&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;MartHelper.src.com.aspire.mart" name="com.aspire.martsupporter" qualified="false" references="true" stamp="1629694004749" textual="false" version="1.0"/>
+</session>

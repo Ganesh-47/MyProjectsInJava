@@ -1,0 +1,20 @@
+package com.aspire.interfaceconcept;
+
+public interface BankSBI {
+	public void loan();
+
+}
+interface BankKVB{
+	public void loanINKVB();
+}
+class ServiceProvider implements BankSBI,BankKVB{
+	public static void main(String args[]){
+		loan();
+		
+	}
+ @overide
+	public void loan() {
+		System.out.println("Loan allocated");
+		
+	}
+}
