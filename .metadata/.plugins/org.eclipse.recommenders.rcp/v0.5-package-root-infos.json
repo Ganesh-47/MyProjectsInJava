@@ -13,6 +13,19 @@
     "javaRuntime": true
   },
   {
+    "symbolicName": "com.mysql.cj",
+    "version": {
+      "major": 8,
+      "minor": 0,
+      "micro": 19,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9af69ef0f68eae737351ff55c0ba6e23a06826a5",
+    "jarFileModificationDate": "2019-12-04T12:44:12+05:30",
+    "location": "C:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.19.jar",
+    "javaRuntime": false
+  },
+  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
@@ -89,6 +102,32 @@
     "jarFileModificationDate": "2021-08-23T17:54:16.630+05:30",
     "location": "C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunpkcs11.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.commons-pool2",
+    "version": {
+      "major": 2,
+      "minor": 11,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8970fd110c965f285ed4c6e40be7630c62db6f68",
+    "jarFileModificationDate": "2021-09-01T14:51:32.833+05:30",
+    "location": "C:\\Users\\ganesh.venkatachalam\\Downloads\\commons-pool2-2.11.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.commons.logging",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+    "jarFileModificationDate": "2021-09-01T14:51:23.687+05:30",
+    "location": "C:\\Users\\ganesh.venkatachalam\\Downloads\\commons-logging-1.2.jar",
+    "javaRuntime": false
   },
   {
     "symbolicName": "jre",
@@ -219,6 +258,19 @@
     "jarFileModificationDate": "2021-08-23T17:54:16.628+05:30",
     "location": "C:\\Program Files\\Java\\jre1.8.0_161\\lib\\ext\\sunmscapi.jar",
     "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.commons-dbcp2",
+    "version": {
+      "major": 2,
+      "minor": 9,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "16d808749cf3dac900c073dd834b5e288562a59c",
+    "jarFileModificationDate": "2021-09-01T14:51:22.742+05:30",
+    "location": "C:\\Users\\ganesh.venkatachalam\\Downloads\\commons-dbcp2-2.9.0.jar",
+    "javaRuntime": false
   },
   {
     "symbolicName": "jre",

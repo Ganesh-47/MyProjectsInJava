@@ -40,11 +40,12 @@ public class DataValidator {
 		String name=scanner.nextLine();
 		boolean flag=false;
 		while(flag==false){
+			int index=0;
 		String lowername=name.toLowerCase();
 		char letterarray[]=lowername.toCharArray();
-		for(char c:letterarray){
-			int ascii=(int)c;
 			for(int i=0;i<name.length()-2;i++){
+				char c=letterarray[index];
+				int ascii=(int)c;
 			if(((ascii<(int)'a'||ascii>(int)'z')&&c!=' ')||lowername.length()<=2||lowername.length()>30||(name.charAt(i)==name.charAt(i+1)&&name.charAt(i)==name.charAt(i+2))){
 				System.out.println("Name is Invalid!!!\nEnter The Correct Name : ");
 				name=scanner.nextLine();
@@ -54,9 +55,8 @@ public class DataValidator {
 			else{
 				flag=true;
 			}
+			index++;
 			}
-		}
-			
 		}
 		
 		return name;

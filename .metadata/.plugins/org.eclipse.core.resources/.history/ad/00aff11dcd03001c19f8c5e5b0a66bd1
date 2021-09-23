@@ -1,7 +1,0 @@
-package com.aspire.mart;
-
-public class ItemNotFoundException {
-	public static String itemNotFoundException(){
-		return "ItemNotFoundException!!!";
-	}
-}

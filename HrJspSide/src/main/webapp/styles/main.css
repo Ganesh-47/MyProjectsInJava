@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+ body {
+ background-color: rgb(0, 0, 0);
+ font-size: 130%;
+ font-family: calluna, Calluna, Georgia;
+ font-weight: 300;
+ margin-right: 2em;
+ margin-left: 2em;
+ line-height: 1.55em;
+ padding: 0 2em;
+ text-rendering: optimizeLegibility;
+ color: rgb(255, 255, 128);
+}
+
+h1 {
+ color: rgb(128, 255, 255);
+ font-family: adelle, Adelle, Georgia;
+ font-weight: 800;
+ text-rendering: optimizeLegibility;
+ font-size: 170%;
+ margin-top: 1em;
+ margin-bottom: 0.5em;
+ line-height: 1.4em;
+}
+
+label {
+ float: left;
+ width: 6em;
+ margin-bottom: 0.5em;
+}
+
+input[type="text"] , input[type="email"] {
+ width: 15em;
+ margin-left: 0.5em;
+ margin-bottom: 0.5em;
+}
+br {
+ clear: both;
+}
+
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}

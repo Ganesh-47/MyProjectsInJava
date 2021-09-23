@@ -1,7 +1,0 @@
-package com.aspire.mart;
-
-public class InvalidQtyException {
-	public static String invalidQtyException(){
-		return "InvalidQtyException!!!";
-	}
-}

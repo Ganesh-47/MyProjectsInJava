@@ -1,0 +1,52 @@
+package com.aspire.register;
+
+import java.io.IOException;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class EmailListServlet
+ */
+public class EmailListServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    /**
+     * Default constructor. 
+     */
+    public EmailListServlet() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String url="/index.html";
+		String action=request.getParameter("action");
+		if(action==null)
+			action="join";
+		if(action.equals("join"))
+			url="/index.html";
+		else if(action.equals("add")) {
+			String firstName=request.getParameter("firstName");
+			String lastName=request.getParameter("lastName");
+			String email=request.getParameter("email");
+			User user=new User(firstName,lastName,email);
+			request.setAttribute("user", user);
+			url="/Thanks.jsp";
+			
+		}
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+
+}
